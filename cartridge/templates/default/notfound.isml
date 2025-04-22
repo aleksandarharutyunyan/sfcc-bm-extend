@@ -1,0 +1,10 @@
+<iscontent type="text/html" charset="UTF-8" />
+
+<isdecorate template="application/MenuFrame">
+
+  <link rel="stylesheet" type="text/css" href="${URLUtils.staticURL('./css/invoice.css')}" />
+  
+  <div class="headline">${Resource.msg('invoice.heading','invoice',null)}</div>
+
+  <div class="errormsg">This invoice file(${pdict.filename}) not found on the server, Please contact Administrator or enter the correct file name <a href="${URLUtils.url('Download-Start')}">here</a>.</div>
+</isdecorate>

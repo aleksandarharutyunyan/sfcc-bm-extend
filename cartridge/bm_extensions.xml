@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<extensions xmlns="http://www.demandware.com/xml/bmmodules/2007-12-11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.demandware.com/xml/bmmodules/2007-12-11 bmext.xsd">
+    <menuaction id="invoice-download" menupath="orders" site="true" position="5000">
+        <name xml:lang="x-default">Download Invoice File</name>
+        <short_description xml:lang="x-default">Invoice</short_description>
+        <description xml:lang="x-default">Invoice</description>
+        <exec pipeline="Download" node="Start" />
+        <sub-pipelines>
+            <pipeline name="Download-Start" />
+            <pipeline name="Download-Invoice" />
+            <pipeline name="Download-Notfound" />
+        </sub-pipelines>
+    </menuaction>
+</extensions>

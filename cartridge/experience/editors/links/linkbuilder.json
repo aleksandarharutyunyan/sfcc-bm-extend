@@ -1,0 +1,12 @@
+{
+    "name": "Link Builder",
+    "description": "Creates a custom link",
+    "resources": {
+        "scripts": [
+            "/experience/editors/links/linkbuilder.js"
+        ],
+        "styles": [
+            "https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Asset Selector",
+  "description": "Select a content asset from the list of available assets",
+  "resources": {
+      "scripts": [
+          "/experience/editors/assets/assetselector.js",
+          "https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js"
+      ],
+      "styles": [
+          "https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css",
+          "https://cdn.jsdelivr.net/npm/tom-select/dist/css/tom-select.css"
+      ]
+  }
+}

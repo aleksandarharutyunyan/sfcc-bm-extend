@@ -1,0 +1,23 @@
+.headline {
+  color: #181818;
+  font-size: 25px;
+  transition: 0.4s;
+  margin-bottom: 20px;
+}
+
+#downloadinvoice input{
+  width: 30%;
+  margin-right: 20px;
+  height: 30px;
+}
+
+#downloadinvoice button{
+  height: 30px;
+  padding: 5px;
+}
+
+.errormsg {
+  color: #181818;
+  font-size: 15px;
+  transition: 0.4s;
+}

@@ -1,0 +1,11 @@
+<iscontent type="text/html" charset="UTF-8" />
+<isdecorate template="application/MenuFrame">
+  <link rel="stylesheet" type="text/css" href="${URLUtils.staticURL('./css/invoice.css')}" />
+  <div class="headline">${Resource.msg('invoice.heading','invoice',null)}</div>
+  <form id="downloadinvoice" action="${URLUtils.url('Download-Invoice')}">
+      <div class="form-fields">
+          <input type="text" id="filename" name="filename" placeholder="Enter Invoice/CreditMemo FileName..." />
+          <button id="save-all-preferences" type="submit">${Resource.msg('invoice.button','invoice',null)}</button>
+      </div>
+  </form>
+</isdecorate>
